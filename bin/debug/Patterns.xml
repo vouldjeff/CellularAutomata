@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patterns>
+	<Pattern name="Планер пистолет на Госпър">
+		<Description>Първата структура и все още най-малката, която на всяка 30 генерация произвежда по един планер.</Description>
+		<Cells>
+			<Cell top="4" left="0" />
+			<Cell top="4" left="1" />
+			<Cell top="5" left="0" />
+			<Cell top="5" left="1" />
+      <Cell top="2" left="12" />
+      <Cell top="2" left="13" />
+      <Cell top="3" left="11" />
+      <Cell top="3" left="15" />
+      <Cell top="4" left="10" />
+      <Cell top="5" left="10" />
+      <Cell top="6" left="10" />
+      <Cell top="7" left="11" />
+      <Cell top="8" left="12" />
+      <Cell top="8" left="13" />
+      <Cell top="7" left="15" />
+      <Cell top="6" left="16" />
+      <Cell top="5" left="16" />
+      <Cell top="5" left="17" />
+      <Cell top="4" left="16" />
+      <Cell top="5" left="14" />
+
+      <Cell top="0" left="24" />
+      <Cell top="1" left="24" />
+      <Cell top="1" left="22" />
+      <Cell top="2" left="20" />
+      <Cell top="2" left="21" />
+      <Cell top="3" left="20" />
+      <Cell top="3" left="21" />
+      <Cell top="4" left="20" />
+      <Cell top="4" left="21" />
+      <Cell top="5" left="22" />
+      <Cell top="5" left="24" />
+      <Cell top="6" left="24" />
+      <Cell top="2" left="34" />
+      <Cell top="2" left="35" />
+      <Cell top="3" left="34" />
+      <Cell top="3" left="35" />
+    </Cells>
+	</Pattern>
+  <Pattern name="Планер">
+    <Description>A glider is the smallest, most common, and first-discovered spaceship.</Description>
+    <Cells>
+      <Cell top="0" left="1" />
+      <Cell top="1" left="2" />
+      <Cell top="2" left="0" />
+      <Cell top="2" left="1" />
+      <Cell top="2" left="2" />
+    </Cells>
+  </Pattern>
+  <Pattern name="Мигач">
+    <Description>The blinker is the smallest and most common oscillator.</Description>
+    <Cells>
+      <Cell top="0" left="0" />
+      <Cell top="0" left="1" />
+      <Cell top="0" left="2" />
+    </Cells>
+  </Pattern>
+  <Pattern name="Бекон">
+    <Description>The beacon is the third most common oscillator.</Description>
+    <Cells>
+      <Cell top="0" left="0" />
+      <Cell top="0" left="1" />
+      <Cell top="1" left="0" />
+      <Cell top="2" left="3" />
+      <Cell top="3" left="3" />
+      <Cell top="3" left="2" />
+    </Cells>
+  </Pattern>
+  <Pattern name="Блок">
+    <Description>Block is an extremely well-known and common still life.</Description>
+    <Cells>
+      <Cell top="0" left="0" />
+      <Cell top="0" left="1" />
+      <Cell top="1" left="0" />
+      <Cell top="1" left="1" />
+    </Cells>
+  </Pattern>
+  <Pattern name="Лодка">
+    <Description>The boat is the only still life with 5 cells.</Description>
+    <Cells>
+      <Cell top="0" left="0" />
+      <Cell top="0" left="1" />
+      <Cell top="1" left="0" />
+      <Cell top="1" left="2" />
+      <Cell top="2" left="1" />
+    </Cells>
+  </Pattern>
+  <Pattern name="Малък космически кораб">
+    <Description>The lightweight spaceship is the smallest orthogonally moving spaceship.</Description>
+    <Cells>
+      <Cell top="0" left="1" />
+      <Cell top="0" left="4" />
+      <Cell top="1" left="0" />
+      <Cell top="2" left="0" />
+      <Cell top="2" left="4" />
+      <Cell top="3" left="0" />
+      <Cell top="3" left="1" />
+      <Cell top="3" left="2" />
+      <Cell top="3" left="3" />
+    </Cells>
+  </Pattern>
+  <Pattern name="R-pentomino">
+    <Description>A methuselah that takes 1103 generations to stabilize.</Description>
+    <Cells>
+      <Cell top="0" left="1" />
+      <Cell top="0" left="2" />
+      <Cell top="1" left="0" />
+      <Cell top="1" left="1" />
+      <Cell top="2" left="1" />
+    </Cells>
+  </Pattern>
+  <Pattern name="Пита">
+    <Description>...</Description>
+    <Cells>
+      <Cell top="0" left="1" />
+      <Cell top="0" left="2" />
+      <Cell top="1" left="0" />
+      <Cell top="1" left="3" />
+      <Cell top="2" left="1" />
+      <Cell top="2" left="3" />
+      <Cell top="3" left="2" />
+    </Cells>
+  </Pattern>
+  <Pattern name="Сфетофар">
+    <Description>Известна формация от четири мигача.</Description>
+    <Cells>
+      <Cell top="0" left="2" />
+      <Cell top="0" left="3" />
+      <Cell top="0" left="4" />
+      <Cell top="2" left="0" />
+      <Cell top="2" left="6" />
+      <Cell top="3" left="0" />
+      <Cell top="3" left="6" />
+      <Cell top="4" left="0" />
+      <Cell top="4" left="6" />
+      <Cell top="6" left="2" />
+      <Cell top="6" left="3" />
+      <Cell top="6" left="4" />
+    </Cells>
+  </Pattern>
+  <Pattern name="X">
+    <Description>Предшественик на сфетофар.</Description>
+    <Cells>
+      <Cell top="0" left="1" />
+      <Cell top="1" left="0" />
+      <Cell top="1" left="0" />
+      <Cell top="1" left="1" />
+      <Cell top="1" left="2" />
+      <Cell top="2" left="1" />
+    </Cells>
+  </Pattern>
+  <Pattern name="W">
+    <Description>Предшественик на пита.</Description>
+    <Cells>
+      <Cell top="0" left="0" />
+      <Cell top="1" left="0" />
+      <Cell top="1" left="1" />
+      <Cell top="2" left="1" />
+      <Cell top="2" left="2" />
+    </Cells>
+  </Pattern>
+</Patterns>

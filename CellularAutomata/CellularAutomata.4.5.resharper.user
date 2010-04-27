@@ -1,0 +1,604 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:CellularAutomationRule.cs" caret="0" fromTop="0" />
+      <File id="6D0B2EBF-2540-4208-984B-67F99D3D0B8D/f:CellularAutomataCanvas.Designer.cs" caret="11914" fromTop="29" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Cells/f:CellState.cs" caret="0" fromTop="0" />
+      <File id="A63458C4-18BF-46E1-8E63-1EFC221622ED/f:AuthoringTests.txt" caret="0" fromTop="0" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Configuration/f:PatternsExample.xml" caret="94" fromTop="3" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/f:CellsCountUpdatedEventArgs.cs" caret="0" fromTop="0" />
+      <File id="6D0B2EBF-2540-4208-984B-67F99D3D0B8D/f:CellularAutomataCanvasController.cs" caret="0" fromTop="0" />
+      <File id="A63458C4-18BF-46E1-8E63-1EFC221622ED/f:ConfigurationTests.cs" caret="0" fromTop="0" />
+      <File id="6D0B2EBF-2540-4208-984B-67F99D3D0B8D/f:ToolStripTrackBar.cs" caret="0" fromTop="0" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:MainForm.Designer.cs" caret="7528" fromTop="31" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:AboutForm.cs" caret="0" fromTop="0" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/f:IXmlBuildable.cs" caret="236" fromTop="5" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Cells/f:Pattern.cs" caret="1676" fromTop="10" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Cells/f:Cell.cs" caret="1928" fromTop="11" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Cells/f:CellCollection.cs" caret="904" fromTop="15" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Cells/f:PatternCollection.cs" caret="1402" fromTop="4" />
+      <File id="3C6741DE-E979-43FE-A8F9-4EFCBB89714E/f:Monitor.cs" caret="1939" fromTop="4" />
+      <File id="3C6741DE-E979-43FE-A8F9-4EFCBB89714E/f:IDisplay.cs" caret="1081" fromTop="12" />
+      <File id="6D0B2EBF-2540-4208-984B-67F99D3D0B8D/f:PatternsViewControl.cs" caret="582" fromTop="11" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:ApplicationManager.cs" caret="449" fromTop="8" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:MainForm.cs" caret="479" fromTop="14" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/f:CAEnvironment.cs" caret="40" fromTop="0" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Factories/f:RuleFactory.cs" caret="1375" fromTop="28" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:TraditionalMazeRule.cs" caret="545" fromTop="14" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/f:Utilities.cs" caret="1079" fromTop="13" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:GameOfLifeRule.cs" caret="248" fromTop="5" />
+      <File id="6D0B2EBF-2540-4208-984B-67F99D3D0B8D/f:CellularAutomataCanvas.cs" caret="1267" fromTop="13" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:AboutForm.Designer.cs" caret="2436" fromTop="9" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="233" fromTop="4" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Program.cs" caret="484" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:GameOfLifeRule.cs" caret="1310" fromTop="22" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:TraditionalMazeRule.cs" caret="339" fromTop="15" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:TraditionalMazeRule.cs" caret="309" fromTop="12" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:TraditionalMazeRule.cs" caret="110" fromTop="7" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/f:Utilities.cs" caret="1068" fromTop="10" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/f:Utilities.cs" caret="1957" fromTop="46" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:TraditionalMazeRule.cs" caret="123" fromTop="6" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/f:Utilities.cs" caret="966" fromTop="9" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:TraditionalMazeRule.cs" caret="836" fromTop="17" />
+      <File id="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554/d:Rules/f:TraditionalMazeRule.cs" caret="545" fromTop="14" />
+      <File id="6D0B2EBF-2540-4208-984B-67F99D3D0B8D/f:CellularAutomataCanvas.cs" caret="1267" fromTop="13" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="2084" fromTop="20" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="2428" fromTop="24" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="2715" fromTop="23" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="3380" fromTop="19" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="3812" fromTop="24" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="3517" fromTop="14" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="3858" fromTop="13" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="4999" fromTop="20" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="4679" fromTop="24" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="4638" fromTop="22" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="5282" fromTop="19" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="5295" fromTop="30" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="1806" fromTop="21" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="1239" fromTop="12" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="1439" fromTop="18" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="893" fromTop="20" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="485" fromTop="8" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Patterns.xml" caret="859" fromTop="19" />
+      <File id="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453/f:Program.cs" caret="484" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="System" priority="7" />
+      <Item value="Windows" priority="0" />
+      <Item value="Forms" priority="0" />
+      <Item value="Drawing" priority="2" />
+      <Item value="Graphics" priority="11" />
+      <Item value="this" priority="2" />
+      <Item value="e" priority="13" />
+      <Item value="Pen" priority="8" />
+      <Item value="new" priority="45" />
+      <Item value="Color" priority="6" />
+      <Item value="SolidBrush" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="FileDialog" priority="5" />
+      <Item value="FileMode" priority="2" />
+      <Item value="FileStream" priority="2" />
+      <Item value="s" priority="0" />
+      <Item value="Runtime" priority="0" />
+      <Item value="Serialization" priority="0" />
+      <Item value="Formatters" priority="0" />
+      <Item value="Binary" priority="0" />
+      <Item value="BinaryFormatter" priority="2" />
+      <Item value="b" priority="1" />
+      <Item value="Serializable" priority="2" />
+      <Item value="public" priority="24" />
+      <Item value="bool" priority="15" />
+      <Item value="break" priority="2" />
+      <Item value="case" priority="3" />
+      <Item value="return" priority="23" />
+      <Item value="typeof" priority="5" />
+      <Item value="CellularAutomationRule" priority="2" />
+      <Item value="PatternRule" priority="0" />
+      <Item value="long" priority="12" />
+      <Item value="void" priority="11" />
+      <Item value="byte" priority="7" />
+      <Item value="key" priority="1" />
+      <Item value="BitConverter" priority="1" />
+      <Item value="cell" priority="20" />
+      <Item value="int" priority="15" />
+      <Item value="Point" priority="41" />
+      <Item value="Environment" priority="6" />
+      <Item value="environment" priority="19" />
+      <Item value="Cell" priority="46" />
+      <Item value="location" priority="16" />
+      <Item value="Location" priority="2" />
+      <Item value="State" priority="1" />
+      <Item value="Utilities" priority="8" />
+      <Item value="GetKey" priority="0" />
+      <Item value="static" priority="7" />
+      <Item value="private" priority="11" />
+      <Item value="enum" priority="0" />
+      <Item value="_neighbours" priority="1" />
+      <Item value="neighbourPointsDelta" priority="2" />
+      <Item value="short" priority="4" />
+      <Item value="for" priority="3" />
+      <Item value="in" priority="1" />
+      <Item value="_neighboursDelta" priority="0" />
+      <Item value="neighbours" priority="9" />
+      <Item value="GetLowerBound" priority="0" />
+      <Item value="GetLength" priority="2" />
+      <Item value="throw" priority="0" />
+      <Item value="ArgumentException" priority="0" />
+      <Item value="delta" priority="1" />
+      <Item value="while" priority="3" />
+      <Item value="count" priority="4" />
+      <Item value="if" priority="19" />
+      <Item value="true" priority="11" />
+      <Item value="currentCell" priority="2" />
+      <Item value="false" priority="14" />
+      <Item value="Size" priority="18" />
+      <Item value="string" priority="6" />
+      <Item value="size" priority="0" />
+      <Item value="Endless" priority="1" />
+      <Item value="endless" priority="0" />
+      <Item value="_rule" priority="2" />
+      <Item value="RuleFactory" priority="0" />
+      <Item value="ruleName" priority="0" />
+      <Item value="INeighbourhood" priority="4" />
+      <Item value="neighbourhood" priority="1" />
+      <Item value="c" priority="3" />
+      <Item value="else" priority="2" />
+      <Item value="States" priority="14" />
+      <Item value="CellCollection" priority="13" />
+      <Item value="IEnumerator" priority="1" />
+      <Item value="enumerator" priority="10" />
+      <Item value="i" priority="11" />
+      <Item value="KeyValuePair" priority="1" />
+      <Item value="CellState" priority="11" />
+      <Item value="SetCellState" priority="0" />
+      <Item value="CellFactory" priority="1" />
+      <Item value="event" priority="0" />
+      <Item value="EventArgs" priority="2" />
+      <Item value="_count" priority="0" />
+      <Item value="CellsCountUpdatedEventArgs" priority="2" />
+      <Item value="_liveCells" priority="7" />
+      <Item value="_environment" priority="2" />
+      <Item value="numberOfLiveCells" priority="1" />
+      <Item value="Refresh" priority="2" />
+      <Item value="statesPlus" priority="0" />
+      <Item value="startButton" priority="1" />
+      <Item value="stopButton" priority="1" />
+      <Item value="StatesNew" priority="4" />
+      <Item value="Prepair" priority="1" />
+      <Item value="collection" priority="1" />
+      <Item value="enume" priority="1" />
+      <Item value="Iterate" priority="0" />
+      <Item value="var" priority="3" />
+      <Item value="newPoint" priority="5" />
+      <Item value="Length" priority="0" />
+      <Item value="lock" priority="0" />
+      <Item value="Dictionary" priority="6" />
+      <Item value="override" priority="0" />
+      <Item value="base" priority="2" />
+      <Item value="old" priority="0" />
+      <Item value="TrivialNeighbourhood" priority="0" />
+      <Item value="MooreNeighbourhood" priority="2" />
+      <Item value="IRule" priority="5" />
+      <Item value="rule" priority="4" />
+      <Item value="generation" priority="2" />
+      <Item value="_generation" priority="2" />
+      <Item value="Stop" priority="0" />
+      <Item value="Clear" priority="0" />
+      <Item value="MessageBox" priority="4" />
+      <Item value="using" priority="1" />
+      <Item value="fileDialog" priority="0" />
+      <Item value="formatter" priority="1" />
+      <Item value="myStream" priority="0" />
+      <Item value="File" priority="1" />
+      <Item value="FileAccess" priority="0" />
+      <Item value="NonSerialized" priority="0" />
+      <Item value="graphics" priority="3" />
+      <Item value="brush" priority="0" />
+      <Item value="Ratio" priority="3" />
+      <Item value="pen" priority="1" />
+      <Item value="CAEnvironment" priority="8" />
+      <Item value="_display" priority="3" />
+      <Item value="Convert" priority="1" />
+      <Item value="index" priority="5" />
+      <Item value="binary" priority="4" />
+      <Item value="SetValue" priority="0" />
+      <Item value="ruleNumber" priority="1" />
+      <Item value="object" priority="15" />
+      <Item value="NewsStyleUriParser" priority="1" />
+      <Item value="Object" priority="0" />
+      <Item value="ruleArgs" priority="0" />
+      <Item value="args" priority="3" />
+      <Item value="itli" priority="0" />
+      <Item value="currentCase" priority="1" />
+      <Item value="Math" priority="1" />
+      <Item value="ruleType" priority="0" />
+      <Item value="timer" priority="0" />
+      <Item value="speedControl" priority="1" />
+      <Item value="Pattern" priority="16" />
+      <Item value="Cells" priority="2" />
+      <Item value="IXmlBuildable" priority="0" />
+      <Item value="XElement" priority="7" />
+      <Item value="XDocument" priority="4" />
+      <Item value="c1" priority="0" />
+      <Item value="GetXElement" priority="1" />
+      <Item value="KeyedValueListBase" priority="0" />
+      <Item value="Type" priority="6" />
+      <Item value="Nullable" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="GameOfLifeRule" priority="0" />
+      <Item value="Brush" priority="1" />
+      <Item value="IDisplay" priority="0" />
+      <Item value="default" priority="1" />
+      <Item value="Activator" priority="0" />
+      <Item value="neighbourhoodName" priority="2" />
+      <Item value="drawingArea" priority="0" />
+      <Item value="TestMethod" priority="0" />
+      <Item value="stream" priority="0" />
+      <Item value="null" priority="2" />
+      <Item value="pattern" priority="20" />
+      <Item value="Name" priority="1" />
+      <Item value="patternElement" priority="2" />
+      <Item value="descriptionElement" priority="1" />
+      <Item value="Description" priority="1" />
+      <Item value="foreach" priority="5" />
+      <Item value="cells" priority="0" />
+      <Item value="element" priority="1" />
+      <Item value="Assert" priority="2" />
+      <Item value="ExpectedValues" priority="0" />
+      <Item value="patterns" priority="0" />
+      <Item value="xml" priority="1" />
+      <Item value="panel1" priority="0" />
+      <Item value="MenuStrip" priority="1" />
+      <Item value="PatternsMenu" priority="0" />
+      <Item value="patternsMenu" priority="5" />
+      <Item value="exitMenu" priority="0" />
+      <Item value="aboutMenu" priority="0" />
+      <Item value="a" priority="1" />
+      <Item value="MenuItem" priority="0" />
+      <Item value="Stream" priority="0" />
+      <Item value="fileStream" priority="2" />
+      <Item value="StreamReader" priority="1" />
+      <Item value="reader" priority="1" />
+      <Item value="cellCollection" priority="2" />
+      <Item value="ToolStripMenuItem" priority="3" />
+      <Item value="item" priority="5" />
+      <Item value="_patternCollection" priority="5" />
+      <Item value="try" priority="1" />
+      <Item value="catch" priority="2" />
+      <Item value="FileNotFoundException" priority="0" />
+      <Item value="ToolStripItemEventArgs" priority="0" />
+      <Item value="ImageList" priority="1" />
+      <Item value="patternsView" priority="7" />
+      <Item value="maxY" priority="0" />
+      <Item value="bitmap" priority="3" />
+      <Item value="max" priority="2" />
+      <Item value="Bitmap" priority="0" />
+      <Item value="ratio" priority="3" />
+      <Item value="painter" priority="0" />
+      <Item value="patternsImages" priority="2" />
+      <Item value="PatternCollection" priority="3" />
+      <Item value="View" priority="0" />
+      <Item value="ColorDepth" priority="0" />
+      <Item value="_min" priority="10" />
+      <Item value="_max" priority="8" />
+      <Item value="patternCollection" priority="2" />
+      <Item value="automataSpace" priority="6" />
+      <Item value="Parent" priority="0" />
+      <Item value="FileStyleUriParser" priority="0" />
+      <Item value="filePath" priority="0" />
+      <Item value="Patterns" priority="2" />
+      <Item value="XmlDocumentType" priority="0" />
+      <Item value="document" priority="4" />
+      <Item value="ApplicationManager" priority="2" />
+      <Item value="PointToClient" priority="1" />
+      <Item value="info" priority="0" />
+      <Item value="point" priority="10" />
+      <Item value="value" priority="2" />
+      <Item value="_size" priority="1" />
+      <Item value="CheckInnerGrid" priority="0" />
+      <Item value="newMax" priority="1" />
+      <Item value="newMin" priority="0" />
+      <Item value="IsInDisplay" priority="0" />
+      <Item value="continue" priority="0" />
+      <Item value="TraditionalMazeRule" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PaintEventArgs">
+      <Item value="Graphics" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="DrawRectangle" priority="1" />
+      <Item value="FillRectangle" priority="0" />
+      <Item value="DrawLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Red" priority="0" />
+      <Item value="Firebrick" priority="0" />
+      <Item value="Gray" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Open" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileMode">
+      <Item value="OpenOrCreate" priority="1" />
+      <Item value="Open" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter">
+      <Item value="Serialize" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.BitConverter">
+      <Item value="GetBytes" priority="0" />
+      <Item value="ToInt32" priority="0" />
+      <Item value="ToBoolean" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.Cell">
+      <Item value="Location" priority="12" />
+      <Item value="State" priority="14" />
+      <Item value="GetKey" priority="3" />
+      <Item value="GetXml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="21" />
+      <Item value="Y" priority="13" />
+      <Item value="Offset" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.Environment">
+      <Item value="State" priority="0" />
+      <Item value="GetCell" priority="0" />
+      <Item value="Size" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.CellState">
+      <Item value="ContainsKey" priority="3" />
+      <Item value="Add" priority="0" />
+      <Item value="Remove" priority="0" />
+      <Item value="Keys" priority="4" />
+      <Item value="Count" priority="1" />
+      <Item value="GetEnumerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CellularAutomata.Framework.Utilities">
+      <Item value="GetKey" priority="3" />
+      <Item value="GetCellFromKey" priority="1" />
+      <Item value="GetBinaryFromByte" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.CellCollection">
+      <Item value="Add" priority="2" />
+      <Item value="GetEnumerator" priority="0" />
+      <Item value="Count" priority="2" />
+      <Item value="GetXElement" priority="0" />
+      <Item value="BuildFromXml" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerator`1">
+      <Item value="MoveNext" priority="3" />
+      <Item value="Current" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CellularAutomata.Framework.RuleFactory">
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.INeighbourhood">
+      <Item value="GetNeighbours" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CellularAutomata.Framework.CellState">
+      <Item value="Enumerator" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Size">
+      <Item value="Height" priority="6" />
+      <Item value="Width" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CellularAutomata.Framework.CellFactory">
+      <Item value="Create" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripStatusLabel">
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.CellsCountUpdatedEventArgs">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripButton">
+      <Item value="Enabled" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.CAEnvironment">
+      <Item value="Prepair" priority="1" />
+      <Item value="States" priority="0" />
+      <Item value="GetType" priority="0" />
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+KeyCollection">
+      <Item value="GetEnumerator" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+KeyCollection+Enumerator">
+      <Item value="MoveNext" priority="0" />
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileAccess">
+      <Item value="Write" priority="0" />
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Drawing.IDisplay">
+      <Item value="DrawGuides" priority="0" />
+      <Item value="Ratio" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBoolean" priority="0" />
+      <Item value="ChangeType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Pow" priority="0" />
+      <Item value="PI" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Interval" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Controls.ToolStripTrackBar">
+      <Item value="Value" priority="1" />
+      <Item value="TrackBar" priority="0" />
+      <Item value="Minimum" priority="0" />
+      <Item value="Maximum" priority="0" />
+      <Item value="LargeChange" priority="0" />
+      <Item value="SmallChange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Controls.CellularAutomataCanvas">
+      <Item value="speedControl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TrackBar">
+      <Item value="Maximum" priority="2" />
+      <Item value="Minimum" priority="1" />
+      <Item value="SmallChange" priority="1" />
+      <Item value="LargeChange" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.Pattern">
+      <Item value="Name" priority="7" />
+      <Item value="Description" priority="4" />
+      <Item value="Cells" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="GetObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="Equals" priority="0" />
+      <Item value="AreNotEqual" priority="0" />
+      <Item value="AreEqual" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Add" priority="3" />
+      <Item value="Element" priority="1" />
+      <Item value="Attribute" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CellularAutomata.UnitTests.ExpectedValues">
+      <Item value="Pattern_GetXml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripMenuItem">
+      <Item value="Owner" priority="0" />
+      <Item value="OwnerItem" priority="0" />
+      <Item value="DropDownItems" priority="0" />
+      <Item value="ToolTipText" priority="0" />
+      <Item value="Tag" priority="0" />
+      <Item value="Click" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripItemCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Framework.PatternCollection">
+      <Item value="GetEnumerator" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.EventArgs">
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripItemEventArgs">
+      <Item value="Item" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripItem">
+      <Item value="Tag" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.GListBox">
+      <Item value="ImageList" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Clone" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Graphics">
+      <Item value="FromImage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Brushes">
+      <Item value="Black" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList">
+      <Item value="Images" priority="3" />
+      <Item value="ColorDepth" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList+ImageCollection">
+      <Item value="Add" priority="0" />
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.View">
+      <Item value="LargeIcon" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView">
+      <Item value="LargeImageList" priority="1" />
+      <Item value="Tag" priority="0" />
+      <Item value="Items" priority="0" />
+      <Item value="ShowItemToolTips" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.ColorDepth">
+      <Item value="Depth4Bit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListViewItem">
+      <Item value="ToolTipText" priority="0" />
+      <Item value="Tag" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DragDropEffects">
+      <Item value="Move" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CellularAutomata.Controls.PatternsViewControl">
+      <Item value="LoadPatterns" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="AllowDrop" priority="0" />
+      <Item value="Location" priority="2" />
+      <Item value="Parent" priority="0" />
+      <Item value="Image" priority="0" />
+      <Item value="Refresh" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Location" priority="2" />
+      <Item value="Parent" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Linq.XDocument">
+      <Item value="Parse" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CellularAutomata.ApplicationManager">
+      <Item value="LoadPatterns" priority="0" />
+      <Item value="LoadMainForm" priority="0" />
+      <Item value="Patterns" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DragEventArgs">
+      <Item value="Y" priority="0" />
+      <Item value="Data" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListViewHitTestInfo">
+      <Item value="Item" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.IDataObject">
+      <Item value="GetData" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

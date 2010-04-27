@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CellularAutomata.Framework</name>
+    </assembly>
+    <members>
+        <member name="T:CellularAutomata.Framework.GameOfLifeRule">
+            <summary>
+            Represents Comway`s Game of Life rule.
+            </summary>
+        </member>
+        <member name="T:CellularAutomata.Framework.IRule">
+            <summary>
+            Provides the functionality of a rule.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.IRule.CanBeActivated(CellularAutomata.Framework.Cell,CellularAutomata.Framework.CellCollection)">
+            <summary>
+            Says whether a particular <see cref="T:CellularAutomata.Framework.Cell"/> can be live.
+            </summary>
+            <param name="currentCell">The <see cref="T:CellularAutomata.Framework.Cell"/> to be checked.</param>
+            <param name="neighbours">The neighbours of the <see cref="T:CellularAutomata.Framework.Cell"/>.</param>
+            <returns>Whether the <see cref="T:CellularAutomata.Framework.Cell"/> can be live.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.GameOfLifeRule.#ctor">
+            <summary>
+            Initializes a new <see cref="T:CellularAutomata.Framework.GameOfLifeRule"/> object.
+            </summary>
+        </member>
+        <member name="T:CellularAutomata.Framework.CellFactory">
+            <summary>
+            Static class, which is used for creating <see cref="T:CellularAutomata.Framework.Cell"/> objects.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CellFactory.Create(System.Drawing.Point,CellularAutomata.Framework.CAEnvironment)">
+            <summary>
+            Creates a new <see cref="T:CellularAutomata.Framework.Cell"/> instance using its location and state from an environment.
+            </summary>
+            <param name="location">The location of the state to be created.</param>
+            <param name="environment">It is used to get the <see cref="T:CellularAutomata.Framework.Cell"/>`s state.</param>
+            <returns>The initialized <see cref="T:CellularAutomata.Framework.Cell"/> object.</returns>
+        </member>
+        <member name="T:CellularAutomata.Framework.Pattern">
+            <summary>
+            Represents a Cellular Automata pattern, defined with a <see cref="T:CellularAutomata.Framework.CellCollection"/>.
+            </summary>
+        </member>
+        <member name="T:CellularAutomata.Framework.IXmlBuildable">
+            <summary>
+            Provides a functionality to serialize and deserialize object into XML format.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.IXmlBuildable.BuildFromXml(System.String)">
+            <summary>
+            Deserialize object from XML in a <see cref="T:System.String"/>. 
+            </summary>
+            <param name="xml">The XML code, which which will be used to build the object.</param>
+        </member>
+        <member name="M:CellularAutomata.Framework.IXmlBuildable.BuildFromXml(System.Xml.Linq.XElement)">
+            <summary>
+            Deserialize object from an <see cref="T:System.Xml.Linq.XElement"/>.
+            </summary>
+            <param name="element">The XML code, which which will be used to build the object.</param>
+        </member>
+        <member name="M:CellularAutomata.Framework.IXmlBuildable.GetXml">
+            <summary>
+            Serialize this object into XML format.
+            </summary>
+            <returns>The serialized object.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.IXmlBuildable.GetXml(System.Xml.Linq.XDocument)">
+            <summary>
+            Serialize this object into XML format.
+            </summary>
+            <param name="doc">Already created <see cref="T:System.Xml.Linq.XDocument"/>.</param>
+            <returns>The updated <paramref name="doc"/> with this object in <see cref="T:System.String"/>.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.IXmlBuildable.GetXElement">
+            <summary>
+            Returns a new <see cref="T:System.Xml.Linq.XElement"/> from this object`s properties.
+            </summary>
+            <returns>The <see cref="T:System.Xml.Linq.XElement"/>.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.Pattern.#ctor">
+            <summary>
+            Initializes a new <see cref="T:CellularAutomata.Framework.Pattern"/>.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.Pattern.Name">
+            <summary>
+            The name of the pattern.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.Pattern.Description">
+            <summary>
+            A brief description of the pattern.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.Pattern.Cells">
+            <summary>
+            The <see cref="T:CellularAutomata.Framework.CellCollection"/>, which represent the pattern itself.
+            </summary>
+        </member>
+        <member name="T:CellularAutomata.Framework.Utilities">
+            <summary>
+            Static class, which provides some standalone functions.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.Utilities.GetRuleType(System.String)">
+            <summary>
+            Retrieves rule type by the name of the rule.
+            </summary>
+            <param name="ruleName">The name of the rule, which <see cref="T:System.Type"/> is returned.</param>
+            <returns><see cref="T:System.Type"/> of <see cref="T:CellularAutomata.Framework.IRule"/> object.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.Utilities.GetNeighbourhoodType(System.String)">
+            <summary>
+            Retrieves neighbourhood type by the name of the rule.
+            </summary>
+            <param name="neighbourhoodName">The name of the neighbourhood, which <see cref="T:System.Type"/> is returned.</param>
+            <returns><see cref="T:System.Type"/> of <see cref="T:CellularAutomata.Framework.INeighbourhood"/> object.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.Utilities.GetKey(CellularAutomata.Framework.Cell)">
+            <summary>
+            Returns key used for the <see cref="T:CellularAutomata.Framework.CellState"/> collection.
+            </summary>
+            <param name="cell"></param>
+            <returns>A <see cref="T:System.Int64"/> number, which represents the key.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.Utilities.GetKey(System.Drawing.Point)">
+            <summary>
+            Returns key used for the <see cref="T:CellularAutomata.Framework.CellState"/> collection.
+            </summary>
+            <param name="location">The location of the cell, which key is returned.</param>
+            <returns>A <see cref="T:System.Int64"/> number, which represents the key.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.Utilities.GetCellFromKey(System.Int64)">
+            <summary>
+            Retrieves the location of a <see cref="T:CellularAutomata.Framework.Cell"/> with particular key.
+            </summary>
+            <param name="key">The key of the cell, which is returned.</param>
+            <returns>A <see cref="T:CellularAutomata.Framework.Cell"/> location.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.Utilities.GetBinaryFromByte(System.Byte)">
+            <summary>
+            Returns the binary format of a basic rule with number <see cref="T:System.Byte"/>.
+            </summary>
+            <param name="rule">The number of the rule.</param>
+            <returns>The binary representation of a rule number.</returns>
+        </member>
+        <member name="T:CellularAutomata.Framework.INeighbourhood">
+            <summary>
+            Provides the functionality of a neighbourhood
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.INeighbourhood.GetNeighbours(System.Drawing.Point,CellularAutomata.Framework.CAEnvironment)">
+            <summary>
+            Retrieves the neighbours of a <see cref="T:CellularAutomata.Framework.Cell"/> using location and <see cref="!:environment"/>  
+            </summary>
+            <param name="location">The location of the <see cref="T:CellularAutomata.Framework.Cell"/>.</param>
+            <param name="environment"><see cref="T:System.Environment"/> object used to get <see cref="P:CellularAutomata.Framework.Cell.State"/>.</param>
+            <returns>A collection with the neighbours.</returns>
+        </member>
+        <member name="T:CellularAutomata.Framework.ExceptionMessages">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.CannotAddField">
+            <summary>
+              Looks up a localized string similar to Field must be added to the form definition first..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.CollItemExist">
+            <summary>
+              Looks up a localized string similar to An item with the same key &apos;{0}&apos; has already been added..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.CollItemNotExist">
+            <summary>
+              Looks up a localized string similar to Item with key &apos;{0}&apos; does not exist in the collection..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.CyclicParentReference">
+            <summary>
+              Looks up a localized string similar to Object cannot be parent on itself.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.DirectoryNotFound">
+            <summary>
+              Looks up a localized string similar to Directory do not exists..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.EmptyString">
+            <summary>
+              Looks up a localized string similar to The string is null or empty..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.FieldAlreadyAdded">
+            <summary>
+              Looks up a localized string similar to Field has being already added to thr form.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.FieldAlreadyAddedToSection">
+            <summary>
+              Looks up a localized string similar to Field has being already added to different section.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.FieldAlreadyHasParentForm">
+            <summary>
+              Looks up a localized string similar to Field already belongs to different form. Use Clone() method to add cloned field object or remove it first from the source form..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.FieldIncorrectParent">
+            <summary>
+              Looks up a localized string similar to Form cannot be parent of field. Use ParentForm instead..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.FileNotFound">
+            <summary>
+              Looks up a localized string similar to File &quot;{0}&quot; does not exists..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.InvalidType">
+            <summary>
+              Looks up a localized string similar to The type &apos;{0}&apos; cannot be resolved. Please verify the spelling is correct or that the full type name is provided..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.MissingConstructor">
+            <summary>
+              Looks up a localized string similar to Cannot find constructor..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.NoTypeAttribute">
+            <summary>
+              Looks up a localized string similar to The type attribute does not exist on the element {0}..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.TypeCouldNotBeCreated">
+            <summary>
+              Looks up a localized string similar to The type {0} from configuration could not be created..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.TypeNotExpected">
+            <summary>
+              Looks up a localized string similar to The type &apos;{0}&apos; does not matches the type of &apos;{1}&apos; .
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.UnsupportedMappingType">
+            <summary>
+              Looks up a localized string similar to Unsupported type! Type must be bool, string, int32, int16, int64, double, decimal, DateTime and Byte Array.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.UnsupportedTypeForSerialization">
+            <summary>
+              Looks up a localized string similar to Unsupported type for custom xml serialization! Type must be bool, string, int32, int16, int64, double, decimal, DateTime and Byte Array.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.ValueNegative">
+            <summary>
+              Looks up a localized string similar to The value must be negative or 0..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.ValuePositive">
+            <summary>
+              Looks up a localized string similar to The value must be positive or 0..
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.ExceptionMessages.ValueZeroBytes">
+            <summary>
+              Looks up a localized string similar to The value must be greater than 0 bytes..
+            </summary>
+        </member>
+        <member name="T:CellularAutomata.Framework.RuleFactory">
+            <summary>
+            Static class, which creates <see cref="T:CellularAutomata.Framework.IRule"/> objects.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.RuleFactory.Create(System.String,System.Object[])">
+            <summary>
+            Creates a new <see cref="T:CellularAutomata.Framework.IRule"/> instance using the rule name array of <see cref="T:System.Object"/> to be applied.
+            </summary>
+            <param name="name">The name of the rule to be created.</param>
+            <param name="args">Orderd arguments needed for creating a particular rule (can be <see cref="T:System.Nullable"/>).</param>
+            <returns>The initialized <see cref="T:CellularAutomata.Framework.IRule"/> object.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.RuleFactory.Create(System.Type,System.Object[])">
+            <summary>
+            Creates a new <see cref="T:CellularAutomata.Framework.IRule"/> instance using the rule <see cref="T:System.Type"/> array of <see cref="T:System.Object"/> to be applied.
+            </summary>
+            <param name="ruleType">The <see cref="T:System.Type"/> of the rule to be created.</param>
+            <param name="args">Orderd arguments needed for creating a particular rule (can be <see cref="T:System.Nullable"/>).</param>
+            <returns>The initialized <see cref="T:CellularAutomata.Framework.IRule"/> object.</returns>
+        </member>
+        <member name="T:CellularAutomata.Framework.CellState">
+            <summary>
+            Represents a <see cref="T:System.Collections.Generic.Dictionary`2"/> holding the <see cref="P:CellularAutomata.Framework.Cell.State"/>.
+            The key is a <see cref="T:System.Int64"/>, which combines the cordinates of a <see cref="T:CellularAutomata.Framework.Cell"/>.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CellState.#ctor">
+            <summary>
+            Initializes a new <see cref="T:CellularAutomata.Framework.CellState"/> collection.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CellState.#ctor(CellularAutomata.Framework.CellState)">
+            <summary>
+            Initializes a copy of old <see cref="T:CellularAutomata.Framework.CellState"/> collection.
+            </summary>
+            <param name="old">The old <see cref="T:CellularAutomata.Framework.CellState"/> collection.</param>
+        </member>
+        <member name="T:CellularAutomata.Framework.CellsCountUpdatedEventArgs">
+            <summary>
+            Represents <see cref="T:System.EventArgs"/> returned, when the count of live cells is updated.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CellsCountUpdatedEventArgs.#ctor(System.Int32)">
+            <summary>
+            Initializes a new <see cref="T:CellularAutomata.Framework.CellsCountUpdatedEventArgs"/> object using the new live cells count.
+            </summary>
+            <param name="count">The count of live cells.</param>
+        </member>
+        <member name="P:CellularAutomata.Framework.CellsCountUpdatedEventArgs.Count">
+            <summary>
+            The count of live cells.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.Common.Guard.CheckExpectedType(System.Type,System.Type)">
+            <summary>
+            <para>Check <paramref name="expectedType"/> to determine if it matches the <see cref="T:System.Type"/> of <paramref name="type"/>.</para>
+            </summary>
+            <param name="expectedType">The expected type of <paramref name="type"/>.</param>
+            <param name="type">The type to check.</param>
+        </member>
+        <member name="T:CellularAutomata.Framework.CellularAutomationRule">
+            <summary>
+            Represents the basic 256 rules.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CellularAutomationRule.#ctor(System.Byte)">
+            <summary>
+            Initializes a new <see cref="T:CellularAutomata.Framework.CellularAutomationRule"/> using a rule number.
+            </summary>
+            <param name="ruleNumber">The number of the rule to be initialized.</param>
+        </member>
+        <member name="T:CellularAutomata.Framework.Cell">
+            <summary>
+            Represents a single cell with its <paramref name="State"/> and <paramref name="Location"/>.
+            </summary>
+            <param name="State">The current state of the cell.</param>
+            <param name="Location">The current <see cref="T:System.Drawing.Point">location</see> of the cell.</param>
+        </member>
+        <member name="M:CellularAutomata.Framework.Cell.#ctor">
+            <summary>
+            The default constructor used for Unit testing.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.Cell.#ctor(System.Drawing.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CellularAutomata.Framework.Cell"/> class using the cell`s location. 
+            </summary>
+            <param name="location">The location of the cell using a <see cref="T:System.Drawing.Point"/>.</param>
+        </member>
+        <member name="P:CellularAutomata.Framework.Cell.State">
+            <summary>
+            The current state of the cell.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.Cell.Location">
+            <summary>
+            The current location of the cell using a <see cref="T:System.Drawing.Point"/>.
+            </summary>
+        </member>
+        <member name="T:CellularAutomata.Framework.CAEnvironment">
+            <summary>
+            Represents a Cellular Automata environment, with a rule, neighourhood etc.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.#ctor(System.Drawing.Size,System.Boolean,System.String,System.String,System.Object[])">
+            <summary>
+            Initializes a new <see cref="T:CellularAutomata.Framework.CAEnvironment"/> object.
+            </summary>
+            <param name="size">The size of the grid.</param>
+            <param name="endless">Is the grid endless.</param>
+            <param name="ruleName">The name of the rule, which will operate.</param>
+            <param name="neighbourhoodName">The name of the neighbourhood for all <see cref="T:CellularAutomata.Framework.Cell"/> objects.</param>
+            <param name="ruleArgs">If needed - arguments for initializing a <see cref="T:CellularAutomata.Framework.IRule"/> object.</param>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.Clear">
+            <summary>
+            Makes all the cells dead.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.Prepair">
+            <summary>
+            Prapares the <see cref="T:CellularAutomata.Framework.CAEnvironment"/> for a new generation.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.GetCell(System.Drawing.Point)">
+            <summary>
+            Returns a new <see cref="T:CellularAutomata.Framework.Cell"/> object using cell location.
+            </summary>
+            <param name="location">The location of the <see cref="T:CellularAutomata.Framework.Cell"/> to be created.</param>
+            <returns>Initialized <see cref="T:CellularAutomata.Framework.Cell"/> object.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.ToggleCellState(System.Drawing.Point)">
+            <summary>
+            Toggles the <see cref="P:CellularAutomata.Framework.Cell.State"/> of a particular <see cref="T:CellularAutomata.Framework.Cell"/>.
+            </summary>
+            <param name="location">The <see cref="T:CellularAutomata.Framework.Cell"/>, which <see cref="P:CellularAutomata.Framework.Cell.State"/> is toggled.</param>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.SetCellState(CellularAutomata.Framework.Cell)">
+            <summary>
+            Gets and sets the new <see cref="P:CellularAutomata.Framework.Cell.State"/> of particular <see cref="T:CellularAutomata.Framework.Cell"/>.
+            </summary>
+            <param name="cell">The <see cref="T:CellularAutomata.Framework.Cell"/>, which <see cref="P:CellularAutomata.Framework.Cell.State"/> is pregenerated.</param>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.Enumerate">
+            <summary>
+            Makes a new generation.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.GetEnumerator">
+            <summary>
+            Returns an enumerator to walk through the live <see cref="T:CellularAutomata.Framework.Cell"/> objects.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.IsInDisplay(System.Drawing.Point)">
+            <summary>
+            Checks is a <see cref="T:CellularAutomata.Framework.Cell"/> is in the grid.
+            </summary>
+            <param name="location">The location of the <see cref="T:CellularAutomata.Framework.Cell"/> to be checked.</param>
+            <returns>If a <see cref="T:CellularAutomata.Framework.Cell"/> is in the grid.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.CAEnvironment.OnRaiseCellsCountUpdatedEvent(CellularAutomata.Framework.CellsCountUpdatedEventArgs)">
+            <summary>
+            Fires an event, when the live <see cref="T:CellularAutomata.Framework.Cell"/> objects count is changed.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> of the event.</param>
+        </member>
+        <member name="E:CellularAutomata.Framework.CAEnvironment.RaiseCellsCountUpdatedEvent">
+            <summary>
+            Fired when the count of live cells is changed.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.CAEnvironment.States">
+            <summary>
+            Dictionary collection with the all live <see cref="T:CellularAutomata.Framework.Cell"/>.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.CAEnvironment.StatesNew">
+            <summary>
+            Dictionary collection with the all live <see cref="T:CellularAutomata.Framework.Cell"/>. (Only internal use)
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.CAEnvironment.Endless">
+            <summary>
+            Is the grid endless or not.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Framework.CAEnvironment.Size">
+            <summary>
+            Represents the dimentions of the grid.
+            </summary>
+        </member>
+        <member name="T:CellularAutomata.Framework.NeighbourhoodFactory">
+            <summary>
+            Static class, which creates <see cref="T:CellularAutomata.Framework.INeighbourhood"/> objects.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.NeighbourhoodFactory.Create(System.String)">
+            <summary>
+            Creates a new <see cref="T:CellularAutomata.Framework.INeighbourhood"/> instance using the neighbourhood name.
+            </summary>
+            <param name="name">The name of the neighbourhood to be created.</param>
+            <returns>The initialized <see cref="T:CellularAutomata.Framework.INeighbourhood"/> object.</returns>
+        </member>
+        <member name="M:CellularAutomata.Framework.NeighbourhoodFactory.Create(System.Type)">
+            <summary>
+            Creates a new <see cref="T:CellularAutomata.Framework.INeighbourhood"/> instance using the neighbourhood <see cref="T:System.Type"/>.
+            </summary>
+            <param name="neighbourhoodType">The <see cref="T:System.Type"/> of the neighbourhood to be created.</param>
+            <returns>The initialized <see cref="T:CellularAutomata.Framework.INeighbourhood"/> object.</returns>
+        </member>
+        <member name="T:CellularAutomata.Framework.PatternCollection">
+            <summary>
+            Represents a collection of <see cref="T:CellularAutomata.Framework.Pattern"/>.
+            The key is the <see cref="P:CellularAutomata.Framework.Pattern.Name"/> of the pattern.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.PatternCollection.GetKey(CellularAutomata.Framework.Pattern)">
+            <summary>
+            Used from the underlaying to know how to get the key from an element.
+            </summary>
+            <param name="element">The element, whose key is returned.</param>
+            <returns>The key itself.</returns>
+        </member>
+        <member name="T:CellularAutomata.Framework.CellCollection">
+            <summary>
+            Represents a list from <see cref="T:CellularAutomata.Framework.Cell"/> objects.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Framework.TraditionalMazeRule.#ctor">
+            <summary>
+            Initializes a new <see cref="T:CellularAutomata.Framework.TraditionalMazeRule"/> object.
+            </summary>
+        </member>
+    </members>
+</doc>

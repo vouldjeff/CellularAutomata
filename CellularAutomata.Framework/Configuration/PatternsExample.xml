@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patterns>
+	<Pattern name="walker">
+		<Description>
+			This pattern represents formatoin of cells that behaves as walker
+		</Description>
+		<Cells>
+			<Cell left="5" top="10" />
+			<Cell left="5" top="11" />
+			<Cell left="5" top="12" />
+			<Cell left="6" top="10" />
+		</Cells>
+	</Pattern>
+	
+</Patterns>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="db451e51-02c0-4ee3-98b7-28f27c43ca31" name="ruslan@COMPUTER 2010-03-01 22:44:40" runUser="computer\ruslan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="1ca55a35-92bf-4667-a710-948be27ea9b0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="F:\projects\CellularAutomata\CellularAutomata\TestResults\ruslan_COMPUTER 2010-03-01 22_44_40">
+      <DeploymentItem filename="F:\projects\CellularAutomata\CellularAutomata.Framework\bin\Debug\CellularAutomata.Framework.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-03-01T22:44:40.4537446+02:00" queuing="2010-03-01T22:44:40.7757630+02:00" start="2010-03-01T22:44:40.8087649+02:00" finish="2010-03-01T22:44:41.3547961+02:00" />
+  <TestDefinitions>
+    <UnitTest name="Cell_GetXml_Test" storage="f:\projects\cellularautomata\cellularautomata.unittests\bin\debug\cellularautomata.unittests.dll" id="cc1d9883-015f-4a40-c444-5158b87d379e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e7f1362a-2f0b-4e83-917d-595bb49324b4" />
+      <TestMethod codeBase="F:\projects\CellularAutomata\CellularAutomata.UnitTests\bin\Debug\CellularAutomata.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CellularAutomata.UnitTests.ConfigurationTests, CellularAutomata.UnitTests" name="Cell_GetXml_Test" />
+    </UnitTest>
+    <UnitTest name="Cell_BuildFromXml_Test" storage="f:\projects\cellularautomata\cellularautomata.unittests\bin\debug\cellularautomata.unittests.dll" id="4ec8c740-d015-b72e-70ad-369dd6315281">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="876ee448-d5f9-4f13-ad09-a3d58d0ead4b" />
+      <TestMethod codeBase="F:\projects\CellularAutomata\CellularAutomata.UnitTests\bin\Debug\CellularAutomata.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CellularAutomata.UnitTests.ConfigurationTests, CellularAutomata.UnitTests" name="Cell_BuildFromXml_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4ec8c740-d015-b72e-70ad-369dd6315281" executionId="876ee448-d5f9-4f13-ad09-a3d58d0ead4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc1d9883-015f-4a40-c444-5158b87d379e" executionId="e7f1362a-2f0b-4e83-917d-595bb49324b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="876ee448-d5f9-4f13-ad09-a3d58d0ead4b" testId="4ec8c740-d015-b72e-70ad-369dd6315281" testName="Cell_BuildFromXml_Test" computerName="COMPUTER" duration="00:00:00.0173148" startTime="2010-03-01T22:44:40.8217656+02:00" endTime="2010-03-01T22:44:41.3227943+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7f1362a-2f0b-4e83-917d-595bb49324b4" testId="cc1d9883-015f-4a40-c444-5158b87d379e" testName="Cell_GetXml_Test" computerName="COMPUTER" duration="00:00:00.0009988" startTime="2010-03-01T22:44:41.3387952+02:00" endTime="2010-03-01T22:44:41.3427954+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

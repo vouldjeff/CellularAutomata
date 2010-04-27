@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d907325b-5960-4ebf-8a5c-ad14cadd5a48" name="ruslan@COMPUTER 2010-03-01 22:52:13" runUser="computer\ruslan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="1ca55a35-92bf-4667-a710-948be27ea9b0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="F:\projects\CellularAutomata\CellularAutomata\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="F:\projects\CellularAutomata\CellularAutomata\TestResults\ruslan_COMPUTER 2010-03-01 22_52_13">
+      <DeploymentItem filename="F:\projects\CellularAutomata\CellularAutomata.Framework\bin\Debug\CellularAutomata.Framework.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="COMPUTER" outcome="Error" timestamp="2010-03-01T22:52:33.1457810+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-03-01T22:52:13.3286476+02:00" queuing="2010-03-01T22:52:14.8377339+02:00" start="2010-03-01T22:52:15.0337451+02:00" finish="2010-03-01T22:52:33.1467811+02:00" />
+  <TestDefinitions>
+    <UnitTest name="CellCollection_GetXml_Test" storage="f:\projects\cellularautomata\cellularautomata.unittests\bin\debug\cellularautomata.unittests.dll" id="eed7a7c3-7f25-2edc-12a9-475089c3d659">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e9f39b1f-b791-4661-9250-5c9849bbf228" />
+      <TestMethod codeBase="F:\projects\CellularAutomata\CellularAutomata.UnitTests\bin\Debug\CellularAutomata.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CellularAutomata.UnitTests.ConfigurationTests, CellularAutomata.UnitTests" name="CellCollection_GetXml_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="eed7a7c3-7f25-2edc-12a9-475089c3d659" executionId="4a9607a8-47cd-4c70-9ce9-98fb6a8c8b98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4a9607a8-47cd-4c70-9ce9-98fb6a8c8b98" testId="eed7a7c3-7f25-2edc-12a9-475089c3d659" testName="CellCollection_GetXml_Test" computerName="COMPUTER" duration="00:00:17.8270197" startTime="2010-03-01T22:52:15.3197614+02:00" endTime="2010-03-01T22:52:33.1467811+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d715cada-c56d-452c-9f8d-abbf21ea385d" name="Vouldjeff@COCA-COLA 2010-03-29 22:13:57" runUser="Coca-Cola\Vouldjeff" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="fee0cfac-9b30-4593-8859-b18680d42932">
+    <Deployment runDeploymentRoot="F:\Projects\CellularAutomata\CellularAutomata.UnitTests\bin\Debug\TestResults\Vouldjeff_COCA-COLA 2010-03-29 22_13_57" />
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-03-29T22:13:57.1462941+03:00" queuing="2010-03-29T22:13:59.3754216+03:00" start="2010-03-29T22:13:59.6804390+03:00" finish="2010-03-29T22:14:00.7945028+03:00" />
+  <TestDefinitions>
+    <UnitTest name="Pattern_BuildFromXml_Test" storage="f:\projects\cellularautomata\cellularautomata.unittests\bin\debug\cellularautomata.unittests.dll" id="7037873b-ce47-cf75-6270-4c50d967aeb8">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="c9f93ba0-7a5e-4c5f-85e2-09126927d726" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="F:/Projects/CellularAutomata/CellularAutomata.UnitTests/bin/Debug/CellularAutomata.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CellularAutomata.UnitTests.ConfigurationTests, CellularAutomata.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pattern_BuildFromXml_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7037873b-ce47-cf75-6270-4c50d967aeb8" executionId="c9f93ba0-7a5e-4c5f-85e2-09126927d726" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c9f93ba0-7a5e-4c5f-85e2-09126927d726" testId="7037873b-ce47-cf75-6270-4c50d967aeb8" testName="Pattern_BuildFromXml_Test" computerName="COCA-COLA" duration="00:00:00.4829928" startTime="2010-03-29T22:13:59.8194470+03:00" endTime="2010-03-29T22:14:00.6194927+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at CellularAutomata.UnitTests.ConfigurationTests.Pattern_BuildFromXml_Test() in F:\Projects\CellularAutomata\CellularAutomata.UnitTests\ConfigurationTests.cs:line 154
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

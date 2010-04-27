@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellularAutomata", "CellularAutomata.csproj", "{2BABED08-CE4E-4E1C-A5C7-E220DE4B9453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellularAutomata.Framework", "..\CellularAutomata.Framework\CellularAutomata.Framework.csproj", "{1D0A5392-FAA5-4B3A-A925-1BD29F9E2554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellularAutomata.Drawing", "..\CellularAutomata.Drawing\CellularAutomata.Drawing.csproj", "{3C6741DE-E979-43FE-A8F9-4EFCBB89714E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellularAutomata.UnitTests", "..\CellularAutomata.UnitTests\CellularAutomata.UnitTests.csproj", "{A63458C4-18BF-46E1-8E63-1EFC221622ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6186B92-2DEC-48EA-92F6-9121ED1FBAD1}"
+	ProjectSection(SolutionItems) = preProject
+		CellularAutomata.vsmdi = CellularAutomata.vsmdi
+		CellularAutomata1.vsmdi = CellularAutomata1.vsmdi
+		CellularAutomata2.vsmdi = CellularAutomata2.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellularAutomata.Controls", "..\CellularAutomata.Controls\CellularAutomata.Controls.csproj", "{6D0B2EBF-2540-4208-984B-67F99D3D0B8D}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CellularAutomata2.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BABED08-CE4E-4E1C-A5C7-E220DE4B9453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BABED08-CE4E-4E1C-A5C7-E220DE4B9453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BABED08-CE4E-4E1C-A5C7-E220DE4B9453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BABED08-CE4E-4E1C-A5C7-E220DE4B9453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0A5392-FAA5-4B3A-A925-1BD29F9E2554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0A5392-FAA5-4B3A-A925-1BD29F9E2554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0A5392-FAA5-4B3A-A925-1BD29F9E2554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0A5392-FAA5-4B3A-A925-1BD29F9E2554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6741DE-E979-43FE-A8F9-4EFCBB89714E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6741DE-E979-43FE-A8F9-4EFCBB89714E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6741DE-E979-43FE-A8F9-4EFCBB89714E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6741DE-E979-43FE-A8F9-4EFCBB89714E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63458C4-18BF-46E1-8E63-1EFC221622ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63458C4-18BF-46E1-8E63-1EFC221622ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63458C4-18BF-46E1-8E63-1EFC221622ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63458C4-18BF-46E1-8E63-1EFC221622ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0B2EBF-2540-4208-984B-67F99D3D0B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0B2EBF-2540-4208-984B-67F99D3D0B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0B2EBF-2540-4208-984B-67F99D3D0B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0B2EBF-2540-4208-984B-67F99D3D0B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

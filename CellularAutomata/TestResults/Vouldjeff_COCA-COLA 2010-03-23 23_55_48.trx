@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="98e68009-fe08-4db4-a5c0-62340d1cde3c" name="Vouldjeff@COCA-COLA 2010-03-23 23:55:48" runUser="Coca-Cola\Vouldjeff" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="1ca55a35-92bf-4667-a710-948be27ea9b0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="F:\Projects\CellularAutomata\CellularAutomata\TestResults\Vouldjeff_COCA-COLA 2010-03-23 23_55_48">
+      <DeploymentItem filename="F:\Projects\CellularAutomata\bin\debug\CellularAutomata.Framework.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-03-23T23:55:48.6341229+02:00" queuing="2010-03-23T23:55:49.4251681+02:00" start="2010-03-23T23:55:49.7291855+02:00" finish="2010-03-23T23:55:50.2612159+02:00" />
+  <TestDefinitions>
+    <UnitTest name="Environment_Ser_Test" storage="f:\projects\cellularautomata\cellularautomata.unittests\bin\debug\cellularautomata.unittests.dll" id="bedcb0d5-cb33-09bd-c7d6-673b790210d0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cf4a2c9e-2a78-4a83-b413-c98d2ff53499" />
+      <TestMethod codeBase="F:\Projects\CellularAutomata\CellularAutomata.UnitTests\bin\Debug\CellularAutomata.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CellularAutomata.UnitTests.ConfigurationTests, CellularAutomata.UnitTests" name="Environment_Ser_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bedcb0d5-cb33-09bd-c7d6-673b790210d0" executionId="cf4a2c9e-2a78-4a83-b413-c98d2ff53499" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf4a2c9e-2a78-4a83-b413-c98d2ff53499" testId="bedcb0d5-cb33-09bd-c7d6-673b790210d0" testName="Environment_Ser_Test" computerName="COCA-COLA" duration="00:00:00.1719319" startTime="2010-03-23T23:55:49.8191907+02:00" endTime="2010-03-23T23:55:50.2452150+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CellularAutomata.UnitTests.ConfigurationTests.Environment_Ser_Test threw exception:  System.Runtime.Serialization.SerializationException: The constructor to deserialize an object of type 'CellularAutomata.Framework.CellState' was not found. ---&gt;  System.Runtime.Serialization.SerializationException: The constructor to deserialize an object of type 'CellularAutomata.Framework.CellState' was not found..</Message>
+          <StackTrace>    at System.Runtime.Serialization.ObjectManager.GetConstructor(Type t, Type[] ctorParams)
+   at System.Runtime.Serialization.ObjectManager.CompleteISerializableObject(Object obj, SerializationInfo info, StreamingContext context)
+ --- End of inner exception stack trace ---
+    at System.Runtime.Serialization.ObjectManager.CompleteISerializableObject(Object obj, SerializationInfo info, StreamingContext context)
+   at System.Runtime.Serialization.ObjectManager.FixupSpecialObject(ObjectHolder holder)
+   at System.Runtime.Serialization.ObjectManager.DoFixups()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   at CellularAutomata.UnitTests.ConfigurationTests.Environment_Ser_Test() in F:\Projects\CellularAutomata\CellularAutomata.UnitTests\ConfigurationTests.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

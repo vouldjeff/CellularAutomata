@@ -1,0 +1,4 @@
+F:\Projects\CellularAutomata\CellularAutomata.Controls\obj\Release\ResolveAssemblyReference.cache
+F:\Projects\CellularAutomata\CellularAutomata.Controls\obj\Release\CellularAutomata.Controls.CellularAutomataCanvas.resources
+F:\Projects\CellularAutomata\CellularAutomata.Controls\obj\Release\CellularAutomata.Controls.Properties.Resources.resources
+F:\Projects\CellularAutomata\CellularAutomata.Controls\obj\Release\CellularAutomata.Controls.csproj.GenerateResource.Cache

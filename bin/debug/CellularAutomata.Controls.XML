@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CellularAutomata.Controls</name>
+    </assembly>
+    <members>
+        <member name="F:CellularAutomata.Controls.PatternsViewControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Controls.PatternsViewControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CellularAutomata.Controls.PatternsViewControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:CellularAutomata.Controls.CellularAutomataCanvas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Controls.CellularAutomataCanvas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CellularAutomata.Controls.CellularAutomataCanvas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Controls.ToolStripTrackBar.CreateControlInstance">
+            <summary>
+            Create the actual control, note this is static so it can be called from the
+            constructor.
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CellularAutomata.Controls.ToolStripTrackBar.OnSubscribeControlEvents(System.Windows.Forms.Control)">
+            <summary>
+            Attach to events we want to re-wrap
+            </summary>
+            <param name="control"></param>
+        </member>
+        <member name="M:CellularAutomata.Controls.ToolStripTrackBar.OnUnsubscribeControlEvents(System.Windows.Forms.Control)">
+            <summary>
+            Detach from events.
+            </summary>
+            <param name="control"></param>
+        </member>
+        <member name="M:CellularAutomata.Controls.ToolStripTrackBar.trackBar_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            Routing for event
+            TrackBar.ValueChanged -> ToolStripTrackBar.ValueChanged
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="P:CellularAutomata.Controls.ToolStripTrackBar.TrackBar">
+            <summary>
+            Create a strongly typed property called TrackBar - handy to prevent casting everywhere.
+            </summary>
+        </member>
+        <member name="T:CellularAutomata.Controls.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Controls.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CellularAutomata.Controls.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

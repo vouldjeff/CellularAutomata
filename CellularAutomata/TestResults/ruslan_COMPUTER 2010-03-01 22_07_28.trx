@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9492e5cf-8091-44a9-8e03-e9aaf5435acd" name="ruslan@COMPUTER 2010-03-01 22:07:28" runUser="computer\ruslan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="1ca55a35-92bf-4667-a710-948be27ea9b0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="F:\projects\CellularAutomata\CellularAutomata\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="F:\projects\CellularAutomata\CellularAutomata\TestResults\ruslan_COMPUTER 2010-03-01 22_07_28">
+      <DeploymentItem filename="F:\projects\CellularAutomata\CellularAutomata.Framework\bin\Debug\CellularAutomata.Framework.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-03-01T22:07:28.8361034+02:00" queuing="2010-03-01T22:07:30.2291830+02:00" start="2010-03-01T22:07:30.4031930+02:00" finish="2010-03-01T22:07:40.4397671+02:00" />
+  <TestDefinitions>
+    <UnitTest name="SerializeCell" storage="f:\projects\cellularautomata\cellularautomata.unittests\bin\debug\cellularautomata.unittests.dll" id="106d7360-553e-a74f-9438-215d76da2a9d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e32873c1-c24b-477f-93ea-57b26696def3" />
+      <TestMethod codeBase="F:\projects\CellularAutomata\CellularAutomata.UnitTests\bin\Debug\CellularAutomata.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CellularAutomata.UnitTests.ConfigurationTests, CellularAutomata.UnitTests" name="SerializeCell" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="106d7360-553e-a74f-9438-215d76da2a9d" executionId="e32873c1-c24b-477f-93ea-57b26696def3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e32873c1-c24b-477f-93ea-57b26696def3" testId="106d7360-553e-a74f-9438-215d76da2a9d" testName="SerializeCell" computerName="COMPUTER" duration="00:00:08.9925212" startTime="2010-03-01T22:07:30.6952097+02:00" endTime="2010-03-01T22:07:40.3707631+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CellularAutomata.UnitTests.ConfigurationTests.SerializeCell threw exception:  System.InvalidOperationException: There was an error generating the XML document. ---&gt;  System.InvalidOperationException: WriteStartDocument needs to be the first call..</Message>
+          <StackTrace>    at System.Xml.XmlTextWriter.StartDocument(Int32 standalone)
+   at System.Xml.XmlTextWriter.WriteStartDocument()
+   at System.Xml.Linq.XDocument.WriteTo(XmlWriter writer)
+   at CellularAutomata.Framework.Cell.WriteXml(XmlWriter writer) in F:\projects\CellularAutomata\CellularAutomata.Framework\Cells\Cell.cs:line 57
+   at System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterCell.Write1_Cell(Object o)
+ --- End of inner exception stack trace ---
+    at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o, XmlSerializerNamespaces namespaces)
+   at System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o)
+   at CellularAutomata.UnitTests.ConfigurationTests.SerializeCell() in F:\projects\CellularAutomata\CellularAutomata.UnitTests\ConfigurationTests.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

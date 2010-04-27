@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="6D0B2EBF-2540-4208-984B-67F99D3D0B8D" ModuleId="CellularAutomata.Controls" />
+  <Module PersistentId="3C6741DE-E979-43FE-A8F9-4EFCBB89714E" ModuleId="CellularAutomata.Drawing" />
+  <Module PersistentId="1D0A5392-FAA5-4B3A-A925-1BD29F9E2554" ModuleId="CellularAutomata.Framework" />
+  <Module PersistentId="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="2BABED08-CE4E-4E1C-A5C7-E220DE4B9453" ModuleId="CellularAutomata" />
+</Modules>

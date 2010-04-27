@@ -1,0 +1,1 @@
+F:\Projects\CellularAutomata\CellularAutomata.Framework\obj\Release\ResolveAssemblyReference.cache

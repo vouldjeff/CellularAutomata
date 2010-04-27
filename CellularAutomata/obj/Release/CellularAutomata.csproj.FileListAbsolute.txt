@@ -1,0 +1,4 @@
+F:\Projects\CellularAutomata\CellularAutomata\obj\Release\ResolveAssemblyReference.cache
+F:\Projects\CellularAutomata\CellularAutomata\obj\Release\CellularAutomata.MainForm.resources
+F:\Projects\CellularAutomata\CellularAutomata\obj\Release\CellularAutomata.Properties.Resources.resources
+F:\Projects\CellularAutomata\CellularAutomata\obj\Release\CellularAutomata.csproj.GenerateResource.Cache

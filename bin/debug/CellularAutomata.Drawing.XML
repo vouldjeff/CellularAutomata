@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CellularAutomata.Drawing</name>
+    </assembly>
+    <members>
+        <member name="T:CellularAutomata.Drawing.IDisplay">
+            <summary>
+            Represents a basic display, which visualizes the Cellular Automata.
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Drawing.IDisplay.DrawGuides(System.Object[],CellularAutomata.Framework.CAEnvironment)">
+            <summary>
+            Draws the grid guides if needed.
+            </summary>
+            <param name="args">Arguments for function (can be <see cref="T:System.Nullable"/>).</param>
+            <param name="environment">The <see cref="T:CellularAutomata.Framework.CAEnvironment"/>`s grid to be drawed.</param>
+        </member>
+        <member name="M:CellularAutomata.Drawing.IDisplay.DrawAutomata(System.Object[],CellularAutomata.Framework.CAEnvironment)">
+            <summary>
+            Draws all the <see cref="T:CellularAutomata.Framework.Cell"/> objects.
+            </summary>
+            <param name="args">Arguments for function (can be <see cref="T:System.Nullable"/>).</param>
+            <param name="environment">The <see cref="T:CellularAutomata.Framework.CAEnvironment"/>`s <see cref="T:CellularAutomata.Framework.Cell"/> objects to be drawed.</param>
+        </member>
+        <member name="P:CellularAutomata.Drawing.IDisplay.Ratio">
+            <summary>
+            The ratio between the <see cref="T:CellularAutomata.Framework.Cell"/> location metric and the display metric. 
+            </summary>
+        </member>
+        <member name="M:CellularAutomata.Drawing.Monitor.#ctor(System.Int32)">
+            <summary>
+            Initializes a Monitor display with ratio.
+            </summary>
+            <param name="ratio">The <see cref="P:CellularAutomata.Drawing.IDisplay.Ratio"/> property.</param>
+        </member>
+    </members>
+</doc>
